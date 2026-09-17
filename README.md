@@ -1,5 +1,7 @@
 # How to customise this template
 
+Run `python3 customise.py` to be walked through the steps below and have them applied for you, or work through them by hand:
+
 1. Name your repository with the name `fileformats-<SUBPACKAGE-TO-ADD-EXTRAS-TO>`
 1. Rename the `fileformats/CHANGEME` directory to the name of the fileformats subpackage the extras are for
 1. Search and replace "CHANGEME" with the name of the fileformats subpackage the extras are to be added
