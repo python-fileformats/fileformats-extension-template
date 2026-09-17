@@ -5,11 +5,11 @@ build-backend = "hatchling.build"
 [project]
 name = "fileformats-CHANGEME-extras"
 description = "Extra methods for accessing and manipulating the underlying data referenced by fileformats-CHANGEME classes"
-readme = "README.rst"
-requires-python = ">=3.8"
+readme = "README.md"
+requires-python = ">=3.11"
 dependencies = [
-    "fileformats >= 0.10",
-    "pydra >= 0.22.0"
+    "fileformats >= 0.17",
+    "pydra >= 1.0a9"
 ]
 license = {file = "LICENSE"}
 authors = [
@@ -30,10 +30,10 @@ classifiers = [
     "Operating System :: MacOS :: MacOS X",
     "Operating System :: Microsoft :: Windows",
     "Operating System :: POSIX :: Linux",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Topic :: Scientific/Engineering",
 ]
 dynamic = ["version"]
@@ -70,7 +70,7 @@ version-file = "fileformats/extras/CHANGEME/_version.py"
 packages = ["fileformats"]
 
 [tool.black]
-target-version = ['py38']
+target-version = ['py311']
 exclude = "fileformats/extras/CHANGEME/_version.py"
 
 [tool.codespell]
